@@ -2,7 +2,6 @@
 layout: post
 title: Throwback
 date: 2023-11-16 17:23:39 +0700
-categories: misc
 ---
 
 Kalau lagi gabut, kadang suka throwback ke masa lalu. Dimulai dari masa-masa SD, kemudian SMP, SMA, dan kuliah. Antara percaya dan nggak percaya, ternyata saya bisa sampai sejauh ini.

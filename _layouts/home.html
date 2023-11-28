@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in paginator.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {% assign words = post.content | strip_html | number_of_words %}
+        {% assign ert = words | divided_by:250 | at_least: 1 %}
+        <span class="post-meta">{{ post.date | date: date_format }} · {{ ert }} minutes</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+          <a href="{{ post.url }}">Baca selengkapnya</a>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <div class="post-navigation">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="post-navigation__item">← Sebelumnya</a>
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="post-navigation__item">Selanjutnya →</a>
+      {% endif %}
+    </div>
+  {%- endif -%}
+
+</div>

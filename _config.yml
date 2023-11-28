@@ -18,20 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Adi Purnama | Software Engineer
-email: adiprnmreal@gmail.com
+title: Adi Purnama
+tagline: Software Engineer
 description: >- # this means to ignore newlines until "baseurl:"
-  Kadang nulis tentang software engineering, kadang nulis random. Kondisional saja sesuai keinginan.
+  Kadang nulis software engineering, kadang nulis keresahan, kadang nulis opini, kadang nulis random.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adi_prnm
 github_username:  adiprnm
+show_excerpts: true
 
 # Build settings
 theme: minima
+paginate: 7
+paginate_path: "/page-:num/"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

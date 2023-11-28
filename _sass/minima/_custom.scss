@@ -1,0 +1,35 @@
+.site-footer {
+    &__site-description {
+        text-align: center;
+        color: #828282;
+        font-size: 0.875rem;
+    }
+    &__site-rss {
+        text-align: center;
+        color: #828282;
+        font-size: 0.875rem;
+    }
+}
+
+.social-media-list__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-list__wrapper li {
+    display: block;
+}
+
+.post-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__item {
+        max-width: 50%;
+    }
+
+    &__item:nth-child(even) {
+        text-align: right;
+    }
+}
