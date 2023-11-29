@@ -24,7 +24,7 @@ layout: default
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-          <a href="{{ post.url }}">Baca selengkapnya</a>
+          <a class="post-read-more" href="{{ post.url }}">Baca selengkapnya</a>
         {%- endif -%}
       </li>
       {%- endfor -%}

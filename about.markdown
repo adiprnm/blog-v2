@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi. I am Adi. I'm a software engineer who passionate in solving problem through technologies.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I make this website to share my hobby in writing things. You might find the posts in this site are not focused to one topic. Sometimes I share about software engineering, maybe some random thoughts as well.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Most of the posts I made mostly in Bahasa. I might write some English posts as well, but not too often.

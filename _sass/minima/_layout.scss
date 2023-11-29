@@ -194,6 +194,10 @@
 
   > li {
     margin-bottom: $spacing-unit;
+
+    .post-read-more {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -204,6 +208,7 @@
 
 .post-link {
   display: block;
+  line-height: 1.25;
   @include relative-font-size(1.5);
 }
 
@@ -214,15 +219,16 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  text-align: center;
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2);
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(2);
   }
 }
 
